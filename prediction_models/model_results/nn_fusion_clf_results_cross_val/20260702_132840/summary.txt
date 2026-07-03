@@ -1,0 +1,49 @@
+neural network intermediate fusion experiment (grouped cross-validation by protein_id)
+timestamp: 20260702_132840
+number of embeddings tested: 8
+number of folds: 10
+feature dimension: 97
+target: medium_gfp_fraction_cells_with_condensates (binary @ 0.3)
+
+results summary (mean ± std across 10 folds):
+==================================================
+
+model: intermediate_fusion_nn with bepler
+  test accuracy: 0.8581 ± 0.0406
+  test auc: 0.9106 ± 0.0461
+  test f1: 0.8181 ± 0.0845
+
+model: intermediate_fusion_nn with cpcprot
+  test accuracy: 0.8665 ± 0.0284
+  test auc: 0.9273 ± 0.0395
+  test f1: 0.8245 ± 0.0870
+
+model: intermediate_fusion_nn with esm
+  test accuracy: 0.8600 ± 0.0401
+  test auc: 0.9229 ± 0.0358
+  test f1: 0.8053 ± 0.1077
+
+model: intermediate_fusion_nn with esm1b
+  test accuracy: 0.8600 ± 0.0443
+  test auc: 0.9182 ± 0.0568
+  test f1: 0.8141 ± 0.0977
+
+model: intermediate_fusion_nn with esm2
+  test accuracy: 0.8601 ± 0.0492
+  test auc: 0.9263 ± 0.0460
+  test f1: 0.8141 ± 0.1075
+
+model: intermediate_fusion_nn with plusrnn
+  test accuracy: 0.8530 ± 0.0437
+  test auc: 0.9201 ± 0.0420
+  test f1: 0.8063 ± 0.0790
+
+model: intermediate_fusion_nn with prottrans_bert_bfd
+  test accuracy: 0.8641 ± 0.0465
+  test auc: 0.9222 ± 0.0474
+  test f1: 0.8178 ± 0.0998
+
+model: intermediate_fusion_nn with seqvec
+  test accuracy: 0.8755 ± 0.0357
+  test auc: 0.9414 ± 0.0271
+  test f1: 0.8402 ± 0.0650

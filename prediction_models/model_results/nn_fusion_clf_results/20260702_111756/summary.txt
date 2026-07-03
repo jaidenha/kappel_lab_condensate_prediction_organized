@@ -1,0 +1,48 @@
+neural network intermediate fusion experiment
+timestamp: 20260702_111756
+number of embeddings tested: 8
+feature dimension: 97
+target: medium_gfp_fraction_cells_with_condensates (binary @ 0.3)
+
+results summary:
+==================================================
+
+model 1: intermediate_fusion_nn with seqvec
+  test accuracy: 0.8588
+  test auc: 0.9177
+  test f1: 0.8136
+
+model 2: intermediate_fusion_nn with bepler
+  test accuracy: 0.8628
+  test auc: 0.9014
+  test f1: 0.8179
+
+model 3: intermediate_fusion_nn with cpcprot
+  test accuracy: 0.8390
+  test auc: 0.8968
+  test f1: 0.7960
+
+model 4: intermediate_fusion_nn with esm
+  test accuracy: 0.8549
+  test auc: 0.9100
+  test f1: 0.8104
+
+model 5: intermediate_fusion_nn with esm1b
+  test accuracy: 0.8787
+  test auc: 0.9127
+  test f1: 0.8416
+
+model 6: intermediate_fusion_nn with esm2
+  test accuracy: 0.8231
+  test auc: 0.8800
+  test f1: 0.7639
+
+model 7: intermediate_fusion_nn with plusrnn
+  test accuracy: 0.8231
+  test auc: 0.8881
+  test f1: 0.7507
+
+model 8: intermediate_fusion_nn with prottrans_bert_bfd
+  test accuracy: 0.8588
+  test auc: 0.9144
+  test f1: 0.8117
