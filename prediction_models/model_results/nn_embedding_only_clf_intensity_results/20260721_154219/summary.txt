@@ -1,0 +1,47 @@
+embedding-only MLP classification experiment
+timestamp: 20260721_154219
+number of embeddings tested: 8
+target: medium_gfp_fraction_cells_with_condensates (binary @ 0.3)
+
+results summary:
+==================================================
+
+model 1: embedding_only_mlp with seqvec
+  test accuracy: 0.8775
+  test auc: 0.9175
+  test f1: 0.9213
+
+model 2: embedding_only_mlp with bepler
+  test accuracy: 0.8725
+  test auc: 0.9007
+  test f1: 0.9192
+
+model 3: embedding_only_mlp with cpcprot
+  test accuracy: 0.8752
+  test auc: 0.9096
+  test f1: 0.9215
+
+model 4: embedding_only_mlp with esm
+  test accuracy: 0.8793
+  test auc: 0.9090
+  test f1: 0.9245
+
+model 5: embedding_only_mlp with esm1b
+  test accuracy: 0.8784
+  test auc: 0.9106
+  test f1: 0.9231
+
+model 6: embedding_only_mlp with esm2
+  test accuracy: 0.8757
+  test auc: 0.9103
+  test f1: 0.9210
+
+model 7: embedding_only_mlp with plusrnn
+  test accuracy: 0.8670
+  test auc: 0.9022
+  test f1: 0.9165
+
+model 8: embedding_only_mlp with prottrans_bert_bfd
+  test accuracy: 0.8780
+  test auc: 0.9139
+  test f1: 0.9219

@@ -1,0 +1,8 @@
+neural network intermediate fusion experiment
+timestamp: 20260721_123856
+number of embeddings tested: 8
+feature dimension: 106
+target: medium_gfp_fraction_cells_with_condensates (binary @ 0.3)
+
+results summary:
+==================================================

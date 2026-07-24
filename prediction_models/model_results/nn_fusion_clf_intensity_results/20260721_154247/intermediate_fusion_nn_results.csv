@@ -1,0 +1,9 @@
+model,embedding,fusion_type,train_accuracy,val_accuracy,test_accuracy,train_f1,val_f1,test_f1,train_precision,val_precision,test_precision,train_recall,val_recall,test_recall,train_specificity,val_specificity,test_specificity,train_auc,val_auc,test_auc,feature_dim,embedding_dim
+intermediate_fusion_nn,seqvec,intermediate_nn,0.8358,0.8161,0.8318,0.8857,0.8713,0.8849,0.9578,0.9564,0.9465,0.8237,0.8001,0.8309,0.8769,0.8722,0.8351,0.9268,0.9231,0.9108,25,1024
+intermediate_fusion_nn,bepler,intermediate_nn,0.8584,0.8335,0.8405,0.903,0.886,0.8925,0.9585,0.9484,0.9385,0.8536,0.8313,0.8509,0.8748,0.8412,0.8041,0.9347,0.9134,0.9072,25,121
+intermediate_fusion_nn,cpcprot,intermediate_nn,0.8624,0.8376,0.8437,0.9056,0.8896,0.8945,0.9626,0.9445,0.9422,0.8551,0.8407,0.8514,0.8873,0.8268,0.8165,0.941,0.9088,0.9071,25,512
+intermediate_fusion_nn,esm,intermediate_nn,0.8692,0.8618,0.8665,0.9133,0.9088,0.9126,0.9352,0.9347,0.931,0.8924,0.8842,0.8949,0.7904,0.7835,0.767,0.9251,0.9159,0.9092,25,1280
+intermediate_fusion_nn,esm1b,intermediate_nn,0.8829,0.8522,0.8519,0.9212,0.9005,0.9012,0.9591,0.9457,0.9372,0.8862,0.8595,0.8679,0.8718,0.8268,0.7959,0.9506,0.923,0.9083,25,1280
+intermediate_fusion_nn,esm2,intermediate_nn,0.8632,0.8458,0.8437,0.9069,0.8947,0.8945,0.9561,0.9547,0.9422,0.8624,0.8419,0.8514,0.8657,0.8598,0.8165,0.9367,0.9229,0.9115,25,1280
+intermediate_fusion_nn,plusrnn,intermediate_nn,0.8652,0.839,0.8309,0.9073,0.8894,0.8852,0.9674,0.9548,0.9382,0.8543,0.8325,0.8379,0.9023,0.8619,0.8062,0.9438,0.919,0.9013,25,1024
+intermediate_fusion_nn,prottrans_bert_bfd,intermediate_nn,0.8787,0.849,0.8419,0.9177,0.8976,0.8937,0.9637,0.9501,0.9369,0.8759,0.8507,0.8544,0.8881,0.8433,0.7979,0.9492,0.9219,0.9124,25,1024
